@@ -1,0 +1,59 @@
+.bg-light{
+    background-color: #f7f8fa !important;;
+}
+.mry-logo-frame {
+    display: block;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.mry-logo-frame .mry-logo {
+    height: 68px;
+}
+.navbar-collapse{
+    flex-grow: 1;
+}
+.mry-label {
+    font-size: 12px;
+}
+.nav-item {
+    padding-right: 20%;
+}
+.navbar-light .navbar-toggler{
+ border-color: transparent;
+}
+.navbar-light .navbar-toggler:focus,
+.navbar-light .navbar-toggler:focus-visible{
+    outline: 0;
+    box-shadow: none;
+}
+    
+
+@media (min-width: 992px) {
+    .mry-logo-frame {
+        padding: 12px 80px;
+    }
+
+    .navbar-expand-lg {
+        justify-content: space-between;
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        height: 92px;
+        padding-left: 310px;
+        padding-right: 80px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    #navbarSupportedContent {
+        padding-top: 12px;
+    }
+    
+    .nav-item {
+        padding-bottom: 12px;
+    }
+}
